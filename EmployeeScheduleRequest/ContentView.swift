@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        VStack(alignment: .leading) {
+            Text("Hello World")
+            Rectangle()
+                .size(CGSize(width: 200, height: 300))
+                .foregroundColor(.gray)
+                .padding()
+            
+        }
+            .padding()
     }
 }
 
